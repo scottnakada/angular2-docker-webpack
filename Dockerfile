@@ -1,7 +1,7 @@
 # To build and run with Docker:
 #
-#  $ docker build -t angular2-quickstart .
-#  $ docker run -it --rm -p 3000:3000 -p 3001:3001 -v $(pwd)/app:/quickstart/app angular2-quickstart
+#  $ docker build -t angular2-docker-webpack .
+#  $ docker run -it --rm -p 3000:3000 -p 3001:3001 angular2-webpack
 #
 # Start with a default nodejs image
 FROM node:latest
